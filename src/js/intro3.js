@@ -20,7 +20,7 @@ export class IntroSceneThree extends Scene {
         this.add(backgroundThree)
 
         const name = new Label({
-            text: '',
+            text: '...',
 
             font: new Font({
                 size: 60, 
