@@ -16,8 +16,9 @@ export class IntroSceneThree extends Scene {
             }
         });
 
-        const backgroundThree = new Background(Resources.IntroThreeBackground, 640, 360)
-        this.add(backgroundThree)
+        const backgroundThree = new Background(Resources.IntroThreeBackground, 640, 360);
+        console.log(backgroundThree);
+        this.add(backgroundThree);
 
         const name = new Label({
             text: '...',
