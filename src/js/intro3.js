@@ -19,6 +19,18 @@ export class IntroSceneThree extends Scene {
         const backgroundThree = new Background(Resources.IntroThreeBackground, 640, 360)
         this.add(backgroundThree)
 
+        const name = new Label({
+            text: '',
+
+            font: new Font({
+                size: 60, 
+                family: 'VT323',
+            }),
+            textAlign: TextAlign.Center,
+            pos: new Vector((this.game.drawWidth / 2) - 600 , this.game.drawHeight / 2 - 350) ,
+            color: Color.fromHex('#ffd88a'),
+        });
+        this.add(name);
         
     }
 }
